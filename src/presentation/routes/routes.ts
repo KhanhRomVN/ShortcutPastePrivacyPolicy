@@ -8,8 +8,8 @@ interface RouteConfig {
 }
 
 // Lazy load pages
-const HomePage = lazy(() => import('../pages/HomePage'));
-const UnknownPage = lazy(() => import('../pages/UnknownPage'));
+const HomePage = lazy(() => import('../pages/Home'));
+const UnknownPage = lazy(() => import('../pages/Other/UnknownPage'));
 
 const publicRoutes: RouteConfig[] = [
   {
